@@ -20,4 +20,22 @@
     Private Sub sidebarTimer_Tick(sender As Object, e As EventArgs) Handles sidebarTimer.Tick
         sidebar_responsividade(sidebarTecnico, expend)
     End Sub
+
+    Private Sub btnConsulta_Click(sender As Object, e As EventArgs) Handles btnConsulta.Click
+        btnConsulta.FillColor = Color.OrangeRed
+        btnOs.FillColor = Color.Transparent
+        btnClientes.FillColor = Color.Transparent
+    End Sub
+
+    Private Sub btnOs_Click(sender As Object, e As EventArgs) Handles btnOs.Click
+        btnOs.FillColor = Color.OrangeRed
+        btnConsulta.FillColor = Color.Transparent
+        btnClientes.FillColor = Color.Transparent
+    End Sub
+
+    Private Sub btnClientes_Click(sender As Object, e As EventArgs) Handles btnClientes.Click
+        btnClientes.FillColor = Color.OrangeRed
+        btnOs.FillColor = Color.Transparent
+        btnConsulta.FillColor = Color.Transparent
+    End Sub
 End Class

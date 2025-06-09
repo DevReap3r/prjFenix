@@ -27,9 +27,9 @@ Partial Class frmTecnico
         Me.Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(Me.components)
         Me.sidebarTecnico = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
         Me.btnLogout = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
+        Me.btnClientes = New Guna.UI2.WinForms.Guna2Button()
+        Me.btnOs = New Guna.UI2.WinForms.Guna2Button()
+        Me.btnConsulta = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2HtmlLabel4 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -58,9 +58,9 @@ Partial Class frmTecnico
         'sidebarTecnico
         '
         Me.sidebarTecnico.Controls.Add(Me.btnLogout)
-        Me.sidebarTecnico.Controls.Add(Me.Guna2Button4)
-        Me.sidebarTecnico.Controls.Add(Me.Guna2Button3)
-        Me.sidebarTecnico.Controls.Add(Me.Guna2Button1)
+        Me.sidebarTecnico.Controls.Add(Me.btnClientes)
+        Me.sidebarTecnico.Controls.Add(Me.btnOs)
+        Me.sidebarTecnico.Controls.Add(Me.btnConsulta)
         Me.sidebarTecnico.Controls.Add(Me.Guna2Panel1)
         Me.sidebarTecnico.Dock = System.Windows.Forms.DockStyle.Left
         Me.sidebarTecnico.FillColor = System.Drawing.Color.Gold
@@ -99,83 +99,83 @@ Partial Class frmTecnico
         Me.btnLogout.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.btnLogout.UseTransparentBackground = True
         '
-        'Guna2Button4
+        'btnClientes
         '
-        Me.Guna2Button4.Animated = True
-        Me.Guna2Button4.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Button4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button4.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Guna2Button4.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!)
-        Me.Guna2Button4.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button4.HoverState.Image = Global.SmartOS.My.Resources.Resources.cliente__2_
-        Me.Guna2Button4.Image = Global.SmartOS.My.Resources.Resources.cliente__3_
-        Me.Guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button4.ImageSize = New System.Drawing.Size(40, 40)
-        Me.Guna2Button4.Location = New System.Drawing.Point(0, 158)
-        Me.Guna2Button4.MinimumSize = New System.Drawing.Size(227, 0)
-        Me.Guna2Button4.Name = "Guna2Button4"
-        Me.Guna2Button4.Size = New System.Drawing.Size(227, 49)
-        Me.Guna2Button4.TabIndex = 4
-        Me.Guna2Button4.Text = "Clientes"
-        Me.Guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button4.UseTransparentBackground = True
+        Me.btnClientes.Animated = True
+        Me.btnClientes.BackColor = System.Drawing.Color.Transparent
+        Me.btnClientes.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnClientes.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnClientes.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnClientes.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnClientes.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnClientes.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnClientes.FillColor = System.Drawing.Color.Transparent
+        Me.btnClientes.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!)
+        Me.btnClientes.ForeColor = System.Drawing.Color.White
+        Me.btnClientes.HoverState.Image = Global.SmartOS.My.Resources.Resources.cliente__2_
+        Me.btnClientes.Image = Global.SmartOS.My.Resources.Resources.cliente__3_
+        Me.btnClientes.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.btnClientes.ImageSize = New System.Drawing.Size(40, 40)
+        Me.btnClientes.Location = New System.Drawing.Point(0, 158)
+        Me.btnClientes.MinimumSize = New System.Drawing.Size(227, 0)
+        Me.btnClientes.Name = "btnClientes"
+        Me.btnClientes.Size = New System.Drawing.Size(227, 49)
+        Me.btnClientes.TabIndex = 4
+        Me.btnClientes.Text = "Clientes"
+        Me.btnClientes.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.btnClientes.UseTransparentBackground = True
         '
-        'Guna2Button3
+        'btnOs
         '
-        Me.Guna2Button3.Animated = True
-        Me.Guna2Button3.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Button3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button3.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Guna2Button3.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!)
-        Me.Guna2Button3.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button3.HoverState.Image = Global.SmartOS.My.Resources.Resources.servico_de_gerenciamento__3_
-        Me.Guna2Button3.Image = Global.SmartOS.My.Resources.Resources.servico_de_gerenciamento__2_
-        Me.Guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button3.ImageSize = New System.Drawing.Size(40, 40)
-        Me.Guna2Button3.Location = New System.Drawing.Point(0, 109)
-        Me.Guna2Button3.MinimumSize = New System.Drawing.Size(227, 0)
-        Me.Guna2Button3.Name = "Guna2Button3"
-        Me.Guna2Button3.Size = New System.Drawing.Size(227, 49)
-        Me.Guna2Button3.TabIndex = 3
-        Me.Guna2Button3.Text = "Ordem de serviço"
-        Me.Guna2Button3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button3.UseTransparentBackground = True
+        Me.btnOs.Animated = True
+        Me.btnOs.BackColor = System.Drawing.Color.Transparent
+        Me.btnOs.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnOs.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnOs.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnOs.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnOs.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnOs.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnOs.FillColor = System.Drawing.Color.Transparent
+        Me.btnOs.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!)
+        Me.btnOs.ForeColor = System.Drawing.Color.White
+        Me.btnOs.HoverState.Image = Global.SmartOS.My.Resources.Resources.servico_de_gerenciamento__3_
+        Me.btnOs.Image = Global.SmartOS.My.Resources.Resources.servico_de_gerenciamento__2_
+        Me.btnOs.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.btnOs.ImageSize = New System.Drawing.Size(40, 40)
+        Me.btnOs.Location = New System.Drawing.Point(0, 109)
+        Me.btnOs.MinimumSize = New System.Drawing.Size(227, 0)
+        Me.btnOs.Name = "btnOs"
+        Me.btnOs.Size = New System.Drawing.Size(227, 49)
+        Me.btnOs.TabIndex = 3
+        Me.btnOs.Text = "Ordem de serviço"
+        Me.btnOs.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.btnOs.UseTransparentBackground = True
         '
-        'Guna2Button1
+        'btnConsulta
         '
-        Me.Guna2Button1.Animated = True
-        Me.Guna2Button1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Guna2Button1.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!)
-        Me.Guna2Button1.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button1.HoverState.Image = Global.SmartOS.My.Resources.Resources.lupa__2_
-        Me.Guna2Button1.Image = Global.SmartOS.My.Resources.Resources.lupa__3_
-        Me.Guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button1.ImageSize = New System.Drawing.Size(40, 40)
-        Me.Guna2Button1.Location = New System.Drawing.Point(0, 60)
-        Me.Guna2Button1.MinimumSize = New System.Drawing.Size(227, 0)
-        Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.Size = New System.Drawing.Size(227, 49)
-        Me.Guna2Button1.TabIndex = 1
-        Me.Guna2Button1.Text = "Consulta"
-        Me.Guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button1.UseTransparentBackground = True
+        Me.btnConsulta.Animated = True
+        Me.btnConsulta.BackColor = System.Drawing.Color.Transparent
+        Me.btnConsulta.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnConsulta.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnConsulta.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnConsulta.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnConsulta.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnConsulta.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnConsulta.FillColor = System.Drawing.Color.OrangeRed
+        Me.btnConsulta.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!)
+        Me.btnConsulta.ForeColor = System.Drawing.Color.White
+        Me.btnConsulta.HoverState.Image = Global.SmartOS.My.Resources.Resources.lupa__2_
+        Me.btnConsulta.Image = Global.SmartOS.My.Resources.Resources.lupa__3_
+        Me.btnConsulta.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.btnConsulta.ImageSize = New System.Drawing.Size(40, 40)
+        Me.btnConsulta.Location = New System.Drawing.Point(0, 60)
+        Me.btnConsulta.MinimumSize = New System.Drawing.Size(227, 0)
+        Me.btnConsulta.Name = "btnConsulta"
+        Me.btnConsulta.Size = New System.Drawing.Size(227, 49)
+        Me.btnConsulta.TabIndex = 1
+        Me.btnConsulta.Text = "Consulta"
+        Me.btnConsulta.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.btnConsulta.UseTransparentBackground = True
         '
         'Guna2Panel1
         '
@@ -330,10 +330,10 @@ Partial Class frmTecnico
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2HtmlLabel3 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents btnSidebar As Guna.UI2.WinForms.Guna2PictureBox
-    Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents btnConsulta As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2HtmlLabel4 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2Button4 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button3 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents btnClientes As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents btnOs As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents btnLogout As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents sidebarTimer As Timer

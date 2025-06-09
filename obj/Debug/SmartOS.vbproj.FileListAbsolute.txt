@@ -17,3 +17,4 @@ C:\Users\Micro\Documents\Sistema_Informacao\vbnet\SmartOS\obj\Debug\SmartOS.frmL
 C:\Users\Micro\Documents\Sistema_Informacao\vbnet\SmartOS\obj\Debug\SmartOS.frmAdm.resources
 C:\Users\Micro\Documents\Sistema_Informacao\vbnet\SmartOS\obj\Debug\SmartOS.frmAtendente.resources
 C:\Users\Micro\Documents\Sistema_Informacao\vbnet\SmartOS\obj\Debug\SmartOS.frmTecnico.resources
+C:\Users\Micro\Documents\Sistema_Informacao\vbnet\SmartOS\obj\Debug\SmartOS.frmConsultaHome.resources

@@ -31,4 +31,5 @@ Module ModuloGeral
             sidebar.Width -= 20
         End If
     End Sub
+
 End Module

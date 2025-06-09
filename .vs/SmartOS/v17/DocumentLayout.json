@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Micro\\Documents\\Sistema_Informacao\\vbnet\\SmartOS\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0D8D943-7B25-4795-A3ED-5FD9CBD9ED35}|SmartOS.vbproj|c:\\users\\micro\\documents\\sistema_informacao\\vbnet\\smartos\\frmconsultahome.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D0D8D943-7B25-4795-A3ED-5FD9CBD9ED35}|SmartOS.vbproj|solutionrelative:frmconsultahome.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0D8D943-7B25-4795-A3ED-5FD9CBD9ED35}|SmartOS.vbproj|c:\\users\\micro\\documents\\sistema_informacao\\vbnet\\smartos\\frmconsultahome.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D0D8D943-7B25-4795-A3ED-5FD9CBD9ED35}|SmartOS.vbproj|solutionrelative:frmconsultahome.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0D8D943-7B25-4795-A3ED-5FD9CBD9ED35}|SmartOS.vbproj|c:\\users\\micro\\documents\\sistema_informacao\\vbnet\\smartos\\modulogeral.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D0D8D943-7B25-4795-A3ED-5FD9CBD9ED35}|SmartOS.vbproj|solutionrelative:modulogeral.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModuloGeral.vb",
+              "DocumentMoniker": "C:\\Users\\Micro\\Documents\\Sistema_Informacao\\vbnet\\SmartOS\\ModuloGeral.vb",
+              "RelativeDocumentMoniker": "ModuloGeral.vb",
+              "ToolTip": "C:\\Users\\Micro\\Documents\\Sistema_Informacao\\vbnet\\SmartOS\\ModuloGeral.vb",
+              "RelativeToolTip": "ModuloGeral.vb",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-08T15:21:52.299Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmConsultaHome.vb",
+              "DocumentMoniker": "C:\\Users\\Micro\\Documents\\Sistema_Informacao\\vbnet\\SmartOS\\frmConsultaHome.vb",
+              "RelativeDocumentMoniker": "frmConsultaHome.vb",
+              "ToolTip": "C:\\Users\\Micro\\Documents\\Sistema_Informacao\\vbnet\\SmartOS\\frmConsultaHome.vb",
+              "RelativeToolTip": "frmConsultaHome.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-08T15:54:57.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmConsultaHome.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Micro\\Documents\\Sistema_Informacao\\vbnet\\SmartOS\\frmConsultaHome.vb",
+              "RelativeDocumentMoniker": "frmConsultaHome.vb",
+              "ToolTip": "C:\\Users\\Micro\\Documents\\Sistema_Informacao\\vbnet\\SmartOS\\frmConsultaHome.vb [Design]",
+              "RelativeToolTip": "frmConsultaHome.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-08T15:39:45.138Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
