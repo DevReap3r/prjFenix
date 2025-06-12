@@ -40,8 +40,9 @@ Partial Class frmAdm
         Me.lblUsuarios = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.sidebarTimerAdm = New System.Windows.Forms.Timer(Me.components)
+        Me.panel_forms = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.sidebarAdm.SuspendLayout()
         Me.Guna2Panel1.SuspendLayout()
         CType(Me.btnSidebar, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -310,6 +311,19 @@ Partial Class frmAdm
         Me.Guna2HtmlLabel2.TabIndex = 2
         Me.Guna2HtmlLabel2.Text = "Admin"
         '
+        'sidebarTimerAdm
+        '
+        Me.sidebarTimerAdm.Interval = 1
+        '
+        'panel_forms
+        '
+        Me.panel_forms.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.panel_forms.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.panel_forms.Location = New System.Drawing.Point(59, 0)
+        Me.panel_forms.Name = "panel_forms"
+        Me.panel_forms.Size = New System.Drawing.Size(677, 481)
+        Me.panel_forms.TabIndex = 2
+        '
         'Guna2PictureBox2
         '
         Me.Guna2PictureBox2.BackColor = System.Drawing.Color.Transparent
@@ -323,15 +337,12 @@ Partial Class frmAdm
         Me.Guna2PictureBox2.TabStop = False
         Me.Guna2PictureBox2.UseTransparentBackground = True
         '
-        'sidebarTimerAdm
-        '
-        Me.sidebarTimerAdm.Interval = 1
-        '
         'frmAdm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(736, 481)
+        Me.Controls.Add(Me.panel_forms)
         Me.Controls.Add(Me.Guna2PictureBox2)
         Me.Controls.Add(Me.sidebarAdm)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -367,4 +378,5 @@ Partial Class frmAdm
     Friend WithEvents btnLogout As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents sidebarTimerAdm As Timer
+    Friend WithEvents panel_forms As Guna.UI2.WinForms.Guna2Panel
 End Class

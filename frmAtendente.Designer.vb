@@ -41,6 +41,7 @@ Partial Class frmAtendente
         Me.Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.sidebarTimer = New System.Windows.Forms.Timer(Me.components)
         Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.panel_forms = New Guna.UI2.WinForms.Guna2Panel()
         Me.sidebarAtendente.SuspendLayout()
         Me.Guna2Panel1.SuspendLayout()
         CType(Me.btnSidebar, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -298,11 +299,20 @@ Partial Class frmAtendente
         Me.Guna2PictureBox2.TabStop = False
         Me.Guna2PictureBox2.UseTransparentBackground = True
         '
+        'panel_forms
+        '
+        Me.panel_forms.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.panel_forms.Location = New System.Drawing.Point(59, 0)
+        Me.panel_forms.Name = "panel_forms"
+        Me.panel_forms.Size = New System.Drawing.Size(677, 481)
+        Me.panel_forms.TabIndex = 2
+        '
         'frmAtendente
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(736, 481)
+        Me.Controls.Add(Me.panel_forms)
         Me.Controls.Add(Me.Guna2PictureBox2)
         Me.Controls.Add(Me.sidebarAtendente)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -337,4 +347,5 @@ Partial Class frmAtendente
     Friend WithEvents btnLogout As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents sidebarTimer As Timer
+    Friend WithEvents panel_forms As Guna.UI2.WinForms.Guna2Panel
 End Class

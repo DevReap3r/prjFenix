@@ -1,13 +1,10 @@
 ﻿Public Class frmAdm
     Dim expend As Boolean
+
     Private Sub frmAdm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        ActiveButton(btnConsulta, sidebarAdm)
+        FormShow(frmConsultaHome, panel_forms)
     End Sub
-
-    Private Sub btnConsulta_Paint(sender As Object, e As PaintEventArgs)
-
-    End Sub
-
     Private Sub Guna2PictureBox2_Click(sender As Object, e As EventArgs) Handles Guna2PictureBox2.Click
         fechar()
     End Sub
@@ -34,6 +31,8 @@
         btnUsuarios.FillColor = Color.Transparent
         btnOs.FillColor = Color.Transparent
         btnClientes.FillColor = Color.Transparent
+        ActiveButton(btnConsulta, sidebarAdm)
+        FormShow(frmConsultaHome, panel_forms)
     End Sub
 
     Private Sub btnUsuarios_Click(sender As Object, e As EventArgs) Handles btnUsuarios.Click
@@ -41,6 +40,8 @@
         btnConsulta.FillColor = Color.Transparent
         btnOs.FillColor = Color.Transparent
         btnClientes.FillColor = Color.Transparent
+        ActiveButton(btnConsulta, sidebarAdm)
+        FormShow(frmUsuarios, panel_forms)
     End Sub
 
     Private Sub btnOs_Click(sender As Object, e As EventArgs) Handles btnOs.Click
@@ -55,5 +56,9 @@
         btnUsuarios.FillColor = Color.Transparent
         btnOs.FillColor = Color.Transparent
         btnConsulta.FillColor = Color.Transparent
+    End Sub
+
+    Private Sub panel_forms_Paint(sender As Object, e As PaintEventArgs) Handles panel_forms.Paint
+
     End Sub
 End Class

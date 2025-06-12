@@ -27,6 +27,11 @@ SmartOS
   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:SmartOS.My.Resources.Resources.adicionar">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:SmartOS.My.Resources.Resources.admin">
 <summary>
   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
@@ -123,6 +128,11 @@ SmartOS
 </summary>
 </member>
 <member name="P:SmartOS.My.Resources.Resources.sombra_de_usuario_masculino">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SmartOS.My.Resources.Resources.voltar">
 <summary>
   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>

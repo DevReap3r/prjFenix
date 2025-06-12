@@ -38,4 +38,9 @@
         btnOs.FillColor = Color.Transparent
         btnConsulta.FillColor = Color.Transparent
     End Sub
+
+    Private Sub frmAtendente_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ActiveButton(btnConsulta, sidebarAtendente)
+        FormShow(frmConsultaHome, panel_forms)
+    End Sub
 End Class

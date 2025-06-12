@@ -18,3 +18,9 @@ C:\Users\Micro\Documents\Sistema_Informacao\vbnet\SmartOS\obj\Debug\SmartOS.frmA
 C:\Users\Micro\Documents\Sistema_Informacao\vbnet\SmartOS\obj\Debug\SmartOS.frmAtendente.resources
 C:\Users\Micro\Documents\Sistema_Informacao\vbnet\SmartOS\obj\Debug\SmartOS.frmTecnico.resources
 C:\Users\Micro\Documents\Sistema_Informacao\vbnet\SmartOS\obj\Debug\SmartOS.frmConsultaHome.resources
+C:\Users\Micro\Documents\Sistema_Informacao\vbnet\SmartOS\obj\Debug\SmartOS.frmAdicionarModelo.resources
+C:\Users\Micro\Documents\Sistema_Informacao\vbnet\SmartOS\obj\Debug\SmartOS.frmConsultaModelo.resources
+C:\Users\Micro\Documents\Sistema_Informacao\vbnet\SmartOS\obj\Debug\SmartOS.frmAdicionarServicosModelo.resources
+C:\Users\Micro\Documents\Sistema_Informacao\vbnet\SmartOS\obj\Debug\SmartOS.frmAdicionarServiço.resources
+C:\Users\Micro\Documents\Sistema_Informacao\vbnet\SmartOS\obj\Debug\SmartOS.frmAdicionarUsuario.resources
+C:\Users\Micro\Documents\Sistema_Informacao\vbnet\SmartOS\obj\Debug\SmartOS.frmUsuarios.resources

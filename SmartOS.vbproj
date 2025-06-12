@@ -107,6 +107,42 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmAdicionarCliente.Designer.vb">
+      <DependentUpon>frmAdicionarCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdicionarCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdicionarModelo.Designer.vb">
+      <DependentUpon>frmAdicionarModelo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdicionarModelo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdicionarOs.Designer.vb">
+      <DependentUpon>frmAdicionarOs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdicionarOs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdicionarServicosModelo.Designer.vb">
+      <DependentUpon>frmAdicionarServicosModelo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdicionarServicosModelo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdicionarServiço.Designer.vb">
+      <DependentUpon>frmAdicionarServiço.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdicionarServiço.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdicionarUsuario.Designer.vb">
+      <DependentUpon>frmAdicionarUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdicionarUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmAdm.Designer.vb">
       <DependentUpon>frmAdm.vb</DependentUpon>
     </Compile>
@@ -119,16 +155,40 @@
     <Compile Include="frmAtendente.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmClientes.Designer.vb">
+      <DependentUpon>frmClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmConsultaHome.Designer.vb">
       <DependentUpon>frmConsultaHome.vb</DependentUpon>
     </Compile>
     <Compile Include="frmConsultaHome.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmConsultaModelo.Designer.vb">
+      <DependentUpon>frmConsultaModelo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaModelo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOs.Designer.vb">
+      <DependentUpon>frmOs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOs.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmTecnico.Designer.vb">
       <DependentUpon>frmTecnico.vb</DependentUpon>
     </Compile>
     <Compile Include="frmTecnico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsuarios.Designer.vb">
+      <DependentUpon>frmUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUsuarios.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ModuloGeral.vb" />
@@ -153,17 +213,47 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmAdicionarCliente.resx">
+      <DependentUpon>frmAdicionarCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdicionarModelo.resx">
+      <DependentUpon>frmAdicionarModelo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdicionarOs.resx">
+      <DependentUpon>frmAdicionarOs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdicionarServicosModelo.resx">
+      <DependentUpon>frmAdicionarServicosModelo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdicionarServiço.resx">
+      <DependentUpon>frmAdicionarServiço.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdicionarUsuario.resx">
+      <DependentUpon>frmAdicionarUsuario.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAdm.resx">
       <DependentUpon>frmAdm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmAtendente.resx">
       <DependentUpon>frmAtendente.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmClientes.resx">
+      <DependentUpon>frmClientes.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmConsultaHome.resx">
       <DependentUpon>frmConsultaHome.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaModelo.resx">
+      <DependentUpon>frmConsultaModelo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOs.resx">
+      <DependentUpon>frmOs.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmTecnico.resx">
       <DependentUpon>frmTecnico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsuarios.resx">
+      <DependentUpon>frmUsuarios.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -256,6 +346,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\icones\servico %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\adicionar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\voltar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

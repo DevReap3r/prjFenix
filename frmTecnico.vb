@@ -13,7 +13,7 @@
         deslogar()
     End Sub
 
-    Private Sub Guna2PictureBox2_Click(sender As Object, e As EventArgs) Handles Guna2PictureBox2.Click
+    Private Sub Guna2PictureBox2_Click(sender As Object, e As EventArgs)
         fechar()
     End Sub
 
@@ -38,4 +38,10 @@
         btnOs.FillColor = Color.Transparent
         btnConsulta.FillColor = Color.Transparent
     End Sub
+
+    Private Sub frmTecnico_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ActiveButton(btnConsulta, sidebarTecnico)
+        FormShow(frmConsultaHome, panel_forms)
+    End Sub
+
 End Class

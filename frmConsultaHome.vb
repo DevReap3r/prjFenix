@@ -1,11 +1,15 @@
-﻿Public Class frmConsultaHome
+﻿Imports Guna.UI2.WinForms
+
+Public Class frmConsultaHome
     Dim tipo_pesquisa As Integer
     Private Sub Guna2TextBox1_TextChanged(sender As Object, e As EventArgs) Handles txtPesquisa.TextChanged
 
     End Sub
 
     Private Sub frmConsultaHome_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        If tipo_conta = 1 Then
+            btnAdd.Visible = True
+        End If
     End Sub
 
     Private Sub btnPesquisaModelo_Click(sender As Object, e As EventArgs) Handles btnPesquisaModelo.Click
@@ -22,4 +26,17 @@
         txtPesquisa.PlaceholderText = "Digite o código do dispositivo"
         tipo_pesquisa = 2
     End Sub
+
+    Private Sub Guna2VScrollBar1_Scroll(sender As Object, e As ScrollEventArgs) Handles Guna2VScrollBar1.Scroll
+
+    End Sub
+
+    Private Sub Guna2PictureBox1_Click(sender As Object, e As EventArgs) Handles Guna2PictureBox1.Click
+        fechar()
+    End Sub
+
+    Private Sub btnAdd_Click(sender As Object, e As EventArgs) Handles btnAdd.Click
+        navegacao(frmAdicionarModelo)
+    End Sub
+
 End Class

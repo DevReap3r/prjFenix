@@ -40,11 +40,10 @@ Partial Class frmTecnico
         Me.Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.sidebarTimer = New System.Windows.Forms.Timer(Me.components)
-        Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.panel_forms = New Guna.UI2.WinForms.Guna2Panel()
         Me.sidebarTecnico.SuspendLayout()
         Me.Guna2Panel1.SuspendLayout()
         CType(Me.btnSidebar, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Guna2Elipse1
@@ -285,25 +284,20 @@ Partial Class frmTecnico
         '
         Me.sidebarTimer.Interval = 1
         '
-        'Guna2PictureBox2
+        'panel_forms
         '
-        Me.Guna2PictureBox2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2PictureBox2.Image = Global.SmartOS.My.Resources.Resources.fechar_preto
-        Me.Guna2PictureBox2.ImageRotate = 0!
-        Me.Guna2PictureBox2.Location = New System.Drawing.Point(707, 4)
-        Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Me.Guna2PictureBox2.Size = New System.Drawing.Size(24, 24)
-        Me.Guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.Guna2PictureBox2.TabIndex = 1
-        Me.Guna2PictureBox2.TabStop = False
-        Me.Guna2PictureBox2.UseTransparentBackground = True
+        Me.panel_forms.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.panel_forms.Location = New System.Drawing.Point(59, 0)
+        Me.panel_forms.Name = "panel_forms"
+        Me.panel_forms.Size = New System.Drawing.Size(677, 481)
+        Me.panel_forms.TabIndex = 1
         '
         'frmTecnico
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(736, 481)
-        Me.Controls.Add(Me.Guna2PictureBox2)
+        Me.Controls.Add(Me.panel_forms)
         Me.Controls.Add(Me.sidebarTecnico)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frmTecnico"
@@ -313,9 +307,7 @@ Partial Class frmTecnico
         Me.Guna2Panel1.ResumeLayout(False)
         Me.Guna2Panel1.PerformLayout()
         CType(Me.btnSidebar, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
@@ -335,6 +327,6 @@ Partial Class frmTecnico
     Friend WithEvents btnClientes As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents btnOs As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents btnLogout As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents sidebarTimer As Timer
+    Friend WithEvents panel_forms As Guna.UI2.WinForms.Guna2Panel
 End Class

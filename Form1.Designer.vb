@@ -26,18 +26,18 @@ Partial Class frmLogin
         Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(Me.components)
         Me.Guna2CustomGradientPanel1 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
+        Me.btnEsqueceuSenha = New System.Windows.Forms.LinkLabel()
+        Me.btnLogin = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.chkMostarSenha = New Guna.UI2.WinForms.Guna2CustomCheckBox()
-        Me.btnLogin = New Guna.UI2.WinForms.Guna2Button()
-        Me.btnEsqueceuSenha = New System.Windows.Forms.LinkLabel()
-        Me.msbLogin = New Guna.UI2.WinForms.Guna2MessageDialog()
-        Me.Guna2CirclePictureBox1 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.btnFechar = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.txtSenha = New Guna.UI2.WinForms.Guna2TextBox()
         Me.txtUsuario = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.msbLogin = New Guna.UI2.WinForms.Guna2MessageDialog()
+        Me.Guna2CirclePictureBox1 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Guna2CustomGradientPanel1.SuspendLayout()
-        CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnFechar, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Guna2Elipse1
@@ -66,6 +66,39 @@ Partial Class frmLogin
         Me.Guna2CustomGradientPanel1.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Guna2CustomGradientPanel1.Size = New System.Drawing.Size(312, 483)
         Me.Guna2CustomGradientPanel1.TabIndex = 1
+        '
+        'btnEsqueceuSenha
+        '
+        Me.btnEsqueceuSenha.AutoSize = True
+        Me.btnEsqueceuSenha.BackColor = System.Drawing.Color.Transparent
+        Me.btnEsqueceuSenha.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnEsqueceuSenha.LinkColor = System.Drawing.Color.White
+        Me.btnEsqueceuSenha.Location = New System.Drawing.Point(80, 447)
+        Me.btnEsqueceuSenha.Name = "btnEsqueceuSenha"
+        Me.btnEsqueceuSenha.Size = New System.Drawing.Size(154, 18)
+        Me.btnEsqueceuSenha.TabIndex = 6
+        Me.btnEsqueceuSenha.TabStop = True
+        Me.btnEsqueceuSenha.Text = "Esqueceu sua senha?"
+        '
+        'btnLogin
+        '
+        Me.btnLogin.Animated = True
+        Me.btnLogin.AutoRoundedCorners = True
+        Me.btnLogin.BackColor = System.Drawing.Color.Transparent
+        Me.btnLogin.BorderColor = System.Drawing.Color.Transparent
+        Me.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnLogin.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnLogin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnLogin.FillColor = System.Drawing.Color.White
+        Me.btnLogin.Font = New System.Drawing.Font("Segoe UI", 14.25!)
+        Me.btnLogin.ForeColor = System.Drawing.Color.Red
+        Me.btnLogin.Location = New System.Drawing.Point(20, 288)
+        Me.btnLogin.Name = "btnLogin"
+        Me.btnLogin.Size = New System.Drawing.Size(272, 34)
+        Me.btnLogin.TabIndex = 5
+        Me.btnLogin.Text = "Entrar"
         '
         'Guna2HtmlLabel1
         '
@@ -96,62 +129,6 @@ Partial Class frmLogin
         Me.chkMostarSenha.UncheckedState.BorderThickness = 0
         Me.chkMostarSenha.UncheckedState.FillColor = System.Drawing.Color.White
         Me.chkMostarSenha.UseTransparentBackground = True
-        '
-        'btnLogin
-        '
-        Me.btnLogin.Animated = True
-        Me.btnLogin.AutoRoundedCorners = True
-        Me.btnLogin.BackColor = System.Drawing.Color.Transparent
-        Me.btnLogin.BorderColor = System.Drawing.Color.Transparent
-        Me.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnLogin.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.btnLogin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.btnLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.btnLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.btnLogin.FillColor = System.Drawing.Color.White
-        Me.btnLogin.Font = New System.Drawing.Font("Segoe UI", 14.25!)
-        Me.btnLogin.ForeColor = System.Drawing.Color.Red
-        Me.btnLogin.Location = New System.Drawing.Point(20, 288)
-        Me.btnLogin.Name = "btnLogin"
-        Me.btnLogin.Size = New System.Drawing.Size(272, 34)
-        Me.btnLogin.TabIndex = 5
-        Me.btnLogin.Text = "Entrar"
-        '
-        'btnEsqueceuSenha
-        '
-        Me.btnEsqueceuSenha.AutoSize = True
-        Me.btnEsqueceuSenha.BackColor = System.Drawing.Color.Transparent
-        Me.btnEsqueceuSenha.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnEsqueceuSenha.LinkColor = System.Drawing.Color.White
-        Me.btnEsqueceuSenha.Location = New System.Drawing.Point(80, 447)
-        Me.btnEsqueceuSenha.Name = "btnEsqueceuSenha"
-        Me.btnEsqueceuSenha.Size = New System.Drawing.Size(154, 18)
-        Me.btnEsqueceuSenha.TabIndex = 6
-        Me.btnEsqueceuSenha.TabStop = True
-        Me.btnEsqueceuSenha.Text = "Esqueceu sua senha?"
-        '
-        'msbLogin
-        '
-        Me.msbLogin.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK
-        Me.msbLogin.Caption = Nothing
-        Me.msbLogin.Icon = Guna.UI2.WinForms.MessageDialogIcon.None
-        Me.msbLogin.Parent = Nothing
-        Me.msbLogin.Style = Guna.UI2.WinForms.MessageDialogStyle.[Default]
-        Me.msbLogin.Text = Nothing
-        '
-        'Guna2CirclePictureBox1
-        '
-        Me.Guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CirclePictureBox1.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2CirclePictureBox1.Image = Global.SmartOS.My.Resources.Resources._7610204_flying_phoenix_firebird_abstrato_logo_design_vector_template_vetor
-        Me.Guna2CirclePictureBox1.ImageRotate = 0!
-        Me.Guna2CirclePictureBox1.Location = New System.Drawing.Point(1, -62)
-        Me.Guna2CirclePictureBox1.Name = "Guna2CirclePictureBox1"
-        Me.Guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2CirclePictureBox1.Size = New System.Drawing.Size(454, 480)
-        Me.Guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2CirclePictureBox1.TabIndex = 2
-        Me.Guna2CirclePictureBox1.TabStop = False
         '
         'btnFechar
         '
@@ -223,6 +200,29 @@ Partial Class frmLogin
         Me.txtUsuario.Size = New System.Drawing.Size(272, 36)
         Me.txtUsuario.TabIndex = 0
         '
+        'msbLogin
+        '
+        Me.msbLogin.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK
+        Me.msbLogin.Caption = Nothing
+        Me.msbLogin.Icon = Guna.UI2.WinForms.MessageDialogIcon.None
+        Me.msbLogin.Parent = Nothing
+        Me.msbLogin.Style = Guna.UI2.WinForms.MessageDialogStyle.[Default]
+        Me.msbLogin.Text = Nothing
+        '
+        'Guna2CirclePictureBox1
+        '
+        Me.Guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CirclePictureBox1.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2CirclePictureBox1.Image = Global.SmartOS.My.Resources.Resources._7610204_flying_phoenix_firebird_abstrato_logo_design_vector_template_vetor
+        Me.Guna2CirclePictureBox1.ImageRotate = 0!
+        Me.Guna2CirclePictureBox1.Location = New System.Drawing.Point(1, -62)
+        Me.Guna2CirclePictureBox1.Name = "Guna2CirclePictureBox1"
+        Me.Guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CirclePictureBox1.Size = New System.Drawing.Size(454, 480)
+        Me.Guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2CirclePictureBox1.TabIndex = 2
+        Me.Guna2CirclePictureBox1.TabStop = False
+        '
         'frmLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -237,8 +237,8 @@ Partial Class frmLogin
         Me.Text = "Form1"
         Me.Guna2CustomGradientPanel1.ResumeLayout(False)
         Me.Guna2CustomGradientPanel1.PerformLayout()
-        CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnFechar, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
