@@ -24,3 +24,7 @@ C:\Users\Micro\Documents\Sistema_Informacao\vbnet\SmartOS\obj\Debug\SmartOS.frmA
 C:\Users\Micro\Documents\Sistema_Informacao\vbnet\SmartOS\obj\Debug\SmartOS.frmAdicionarServiço.resources
 C:\Users\Micro\Documents\Sistema_Informacao\vbnet\SmartOS\obj\Debug\SmartOS.frmAdicionarUsuario.resources
 C:\Users\Micro\Documents\Sistema_Informacao\vbnet\SmartOS\obj\Debug\SmartOS.frmUsuarios.resources
+C:\Users\Micro\Documents\Sistema_Informacao\vbnet\SmartOS\obj\Debug\SmartOS.frmAdicionarCliente.resources
+C:\Users\Micro\Documents\Sistema_Informacao\vbnet\SmartOS\obj\Debug\SmartOS.frmAdicionarOs.resources
+C:\Users\Micro\Documents\Sistema_Informacao\vbnet\SmartOS\obj\Debug\SmartOS.frmClientes.resources
+C:\Users\Micro\Documents\Sistema_Informacao\vbnet\SmartOS\obj\Debug\SmartOS.frmOs.resources

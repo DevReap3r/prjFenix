@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Micro\\Documents\\Sistema_Informacao\\vbnet\\SmartOS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0D8D943-7B25-4795-A3ED-5FD9CBD9ED35}|SmartOS.vbproj|c:\\users\\micro\\documents\\sistema_informacao\\vbnet\\smartos\\frmos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{D0D8D943-7B25-4795-A3ED-5FD9CBD9ED35}|SmartOS.vbproj|solutionrelative:frmos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0D8D943-7B25-4795-A3ED-5FD9CBD9ED35}|SmartOS.vbproj|c:\\users\\micro\\documents\\sistema_informacao\\vbnet\\smartos\\frmos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{D0D8D943-7B25-4795-A3ED-5FD9CBD9ED35}|SmartOS.vbproj|solutionrelative:frmos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0D8D943-7B25-4795-A3ED-5FD9CBD9ED35}|SmartOS.vbproj|c:\\users\\micro\\documents\\sistema_informacao\\vbnet\\smartos\\frmadicionaros.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{D0D8D943-7B25-4795-A3ED-5FD9CBD9ED35}|SmartOS.vbproj|solutionrelative:frmadicionaros.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0D8D943-7B25-4795-A3ED-5FD9CBD9ED35}|SmartOS.vbproj|c:\\users\\micro\\documents\\sistema_informacao\\vbnet\\smartos\\frmadicionarcliente.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{D0D8D943-7B25-4795-A3ED-5FD9CBD9ED35}|SmartOS.vbproj|solutionrelative:frmadicionarcliente.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0D8D943-7B25-4795-A3ED-5FD9CBD9ED35}|SmartOS.vbproj|c:\\users\\micro\\documents\\sistema_informacao\\vbnet\\smartos\\frmadicionarmodelo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{D0D8D943-7B25-4795-A3ED-5FD9CBD9ED35}|SmartOS.vbproj|solutionrelative:frmadicionarmodelo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0D8D943-7B25-4795-A3ED-5FD9CBD9ED35}|SmartOS.vbproj|C:\\Users\\Micro\\Documents\\Sistema_Informacao\\vbnet\\SmartOS\\modulogeral.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{D0D8D943-7B25-4795-A3ED-5FD9CBD9ED35}|SmartOS.vbproj|solutionrelative:modulogeral.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{D0D8D943-7B25-4795-A3ED-5FD9CBD9ED35}|SmartOS.vbproj|c:\\users\\micro\\documents\\sistema_informacao\\vbnet\\smartos\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D0D8D943-7B25-4795-A3ED-5FD9CBD9ED35}|SmartOS.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,81 +14,18 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ModuloGeral.vb",
-              "DocumentMoniker": "C:\\Users\\Micro\\Documents\\Sistema_Informacao\\vbnet\\SmartOS\\ModuloGeral.vb",
-              "RelativeDocumentMoniker": "ModuloGeral.vb",
-              "ToolTip": "C:\\Users\\Micro\\Documents\\Sistema_Informacao\\vbnet\\SmartOS\\ModuloGeral.vb",
-              "RelativeToolTip": "ModuloGeral.vb",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-06-08T15:21:52.299Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmAdicionarModelo.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Micro\\Documents\\Sistema_Informacao\\vbnet\\SmartOS\\frmAdicionarModelo.vb",
-              "RelativeDocumentMoniker": "frmAdicionarModelo.vb",
-              "ToolTip": "C:\\Users\\Micro\\Documents\\Sistema_Informacao\\vbnet\\SmartOS\\frmAdicionarModelo.vb [Design]",
-              "RelativeToolTip": "frmAdicionarModelo.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-06-12T06:20:59.177Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmAdicionarCliente.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Micro\\Documents\\Sistema_Informacao\\vbnet\\SmartOS\\frmAdicionarCliente.vb",
-              "RelativeDocumentMoniker": "frmAdicionarCliente.vb",
-              "ToolTip": "C:\\Users\\Micro\\Documents\\Sistema_Informacao\\vbnet\\SmartOS\\frmAdicionarCliente.vb [Design]",
-              "RelativeToolTip": "frmAdicionarCliente.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-06-12T06:12:50.895Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmAdicionarOs.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Micro\\Documents\\Sistema_Informacao\\vbnet\\SmartOS\\frmAdicionarOs.vb",
-              "RelativeDocumentMoniker": "frmAdicionarOs.vb",
-              "ToolTip": "C:\\Users\\Micro\\Documents\\Sistema_Informacao\\vbnet\\SmartOS\\frmAdicionarOs.vb [Design]",
-              "RelativeToolTip": "frmAdicionarOs.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-06-12T06:02:20.537Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmOs.vb",
-              "DocumentMoniker": "C:\\Users\\Micro\\Documents\\Sistema_Informacao\\vbnet\\SmartOS\\frmOs.vb",
-              "RelativeDocumentMoniker": "frmOs.vb",
-              "ToolTip": "C:\\Users\\Micro\\Documents\\Sistema_Informacao\\vbnet\\SmartOS\\frmOs.vb",
-              "RelativeToolTip": "frmOs.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-06-12T05:56:18.929Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmOs.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Micro\\Documents\\Sistema_Informacao\\vbnet\\SmartOS\\frmOs.vb",
-              "RelativeDocumentMoniker": "frmOs.vb",
-              "ToolTip": "C:\\Users\\Micro\\Documents\\Sistema_Informacao\\vbnet\\SmartOS\\frmOs.vb [Design]",
-              "RelativeToolTip": "frmOs.vb [Design]",
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Micro\\Documents\\Sistema_Informacao\\vbnet\\SmartOS\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "C:\\Users\\Micro\\Documents\\Sistema_Informacao\\vbnet\\SmartOS\\Form1.vb [Design]",
+              "RelativeToolTip": "Form1.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-06-12T05:48:04.915Z",
+              "WhenOpened": "2025-06-14T23:56:33.524Z",
               "EditorCaption": " [Design]"
             }
           ]
