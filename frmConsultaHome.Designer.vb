@@ -25,24 +25,22 @@ Partial Class frmConsultaHome
         Me.components = New System.ComponentModel.Container()
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(Me.components)
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.btnPesquisaCod = New Guna.UI2.WinForms.Guna2Button()
         Me.btnPesquisaModelo = New Guna.UI2.WinForms.Guna2Button()
         Me.btnPesquisaMarca = New Guna.UI2.WinForms.Guna2Button()
+        Me.btnPesquisa = New Guna.UI2.WinForms.Guna2GradientCircleButton()
         Me.txtPesquisa = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.datagridModelos = New ns1.BunifuCustomDataGrid()
-        Me.coluna_marca = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.coluna_modelo = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.coluna_codigo = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Guna2VScrollBar1 = New Guna.UI2.WinForms.Guna2VScrollBar()
         Me.btnAdd = New Guna.UI2.WinForms.Guna2GradientCircleButton()
-        Me.btnPesquisa = New Guna.UI2.WinForms.Guna2GradientCircleButton()
-        Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2Panel1.SuspendLayout()
-        CType(Me.datagridModelos, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.datagridModelos, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Guna2Elipse1
@@ -139,6 +137,27 @@ Partial Class frmConsultaHome
         Me.btnPesquisaMarca.Text = "Marca"
         Me.btnPesquisaMarca.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
+        'btnPesquisa
+        '
+        Me.btnPesquisa.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnPesquisa.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnPesquisa.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnPesquisa.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnPesquisa.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnPesquisa.FillColor = System.Drawing.Color.Red
+        Me.btnPesquisa.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnPesquisa.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.btnPesquisa.ForeColor = System.Drawing.Color.White
+        Me.btnPesquisa.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical
+        Me.btnPesquisa.Image = Global.SmartOS.My.Resources.Resources.lupa__3_
+        Me.btnPesquisa.ImageOffset = New System.Drawing.Point(1, 0)
+        Me.btnPesquisa.ImageSize = New System.Drawing.Size(25, 25)
+        Me.btnPesquisa.Location = New System.Drawing.Point(281, 3)
+        Me.btnPesquisa.Name = "btnPesquisa"
+        Me.btnPesquisa.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.btnPesquisa.Size = New System.Drawing.Size(35, 35)
+        Me.btnPesquisa.TabIndex = 2
+        '
         'txtPesquisa
         '
         Me.txtPesquisa.Animated = True
@@ -162,6 +181,17 @@ Partial Class frmConsultaHome
         Me.txtPesquisa.Size = New System.Drawing.Size(219, 36)
         Me.txtPesquisa.TabIndex = 1
         '
+        'Guna2PictureBox1
+        '
+        Me.Guna2PictureBox1.Image = Global.SmartOS.My.Resources.Resources.fechar
+        Me.Guna2PictureBox1.ImageRotate = 0!
+        Me.Guna2PictureBox1.Location = New System.Drawing.Point(650, 4)
+        Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
+        Me.Guna2PictureBox1.Size = New System.Drawing.Size(24, 24)
+        Me.Guna2PictureBox1.TabIndex = 0
+        Me.Guna2PictureBox1.TabStop = False
+        Me.Guna2PictureBox1.UseTransparentBackground = True
+        '
         'datagridModelos
         '
         Me.datagridModelos.AllowUserToAddRows = False
@@ -169,23 +199,34 @@ Partial Class frmConsultaHome
         Me.datagridModelos.AllowUserToOrderColumns = True
         Me.datagridModelos.AllowUserToResizeColumns = False
         Me.datagridModelos.AllowUserToResizeRows = False
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White
         Me.datagridModelos.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
         Me.datagridModelos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.datagridModelos.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.datagridModelos.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.datagridModelos.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
         DataGridViewCellStyle2.BackColor = System.Drawing.Color.OrangeRed
         DataGridViewCellStyle2.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.OrangeRed
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White
         DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
         Me.datagridModelos.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.datagridModelos.ColumnHeadersHeight = 30
         Me.datagridModelos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
-        Me.datagridModelos.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.coluna_marca, Me.coluna_modelo, Me.coluna_codigo})
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.datagridModelos.DefaultCellStyle = DataGridViewCellStyle3
         Me.datagridModelos.DoubleBuffered = True
         Me.datagridModelos.EnableHeadersVisualStyles = False
         Me.datagridModelos.GridColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
@@ -195,27 +236,10 @@ Partial Class frmConsultaHome
         Me.datagridModelos.Name = "datagridModelos"
         Me.datagridModelos.ReadOnly = True
         Me.datagridModelos.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        Me.datagridModelos.RowHeadersVisible = False
         Me.datagridModelos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.datagridModelos.Size = New System.Drawing.Size(561, 411)
         Me.datagridModelos.TabIndex = 1
-        '
-        'coluna_marca
-        '
-        Me.coluna_marca.HeaderText = "Marca"
-        Me.coluna_marca.Name = "coluna_marca"
-        Me.coluna_marca.ReadOnly = True
-        '
-        'coluna_modelo
-        '
-        Me.coluna_modelo.HeaderText = "Modelo"
-        Me.coluna_modelo.Name = "coluna_modelo"
-        Me.coluna_modelo.ReadOnly = True
-        '
-        'coluna_codigo
-        '
-        Me.coluna_codigo.HeaderText = "Código"
-        Me.coluna_codigo.Name = "coluna_codigo"
-        Me.coluna_codigo.ReadOnly = True
         '
         'Guna2VScrollBar1
         '
@@ -255,38 +279,6 @@ Partial Class frmConsultaHome
         Me.btnAdd.TabIndex = 3
         Me.btnAdd.Visible = False
         '
-        'btnPesquisa
-        '
-        Me.btnPesquisa.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.btnPesquisa.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.btnPesquisa.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.btnPesquisa.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.btnPesquisa.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.btnPesquisa.FillColor = System.Drawing.Color.Red
-        Me.btnPesquisa.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btnPesquisa.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.btnPesquisa.ForeColor = System.Drawing.Color.White
-        Me.btnPesquisa.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical
-        Me.btnPesquisa.Image = Global.SmartOS.My.Resources.Resources.lupa__3_
-        Me.btnPesquisa.ImageOffset = New System.Drawing.Point(1, 0)
-        Me.btnPesquisa.ImageSize = New System.Drawing.Size(25, 25)
-        Me.btnPesquisa.Location = New System.Drawing.Point(281, 3)
-        Me.btnPesquisa.Name = "btnPesquisa"
-        Me.btnPesquisa.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.btnPesquisa.Size = New System.Drawing.Size(35, 35)
-        Me.btnPesquisa.TabIndex = 2
-        '
-        'Guna2PictureBox1
-        '
-        Me.Guna2PictureBox1.Image = Global.SmartOS.My.Resources.Resources.fechar
-        Me.Guna2PictureBox1.ImageRotate = 0!
-        Me.Guna2PictureBox1.Location = New System.Drawing.Point(650, 4)
-        Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Me.Guna2PictureBox1.Size = New System.Drawing.Size(24, 24)
-        Me.Guna2PictureBox1.TabIndex = 0
-        Me.Guna2PictureBox1.TabStop = False
-        Me.Guna2PictureBox1.UseTransparentBackground = True
-        '
         'frmConsultaHome
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -302,8 +294,8 @@ Partial Class frmConsultaHome
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "frmConsultaHome"
         Me.Guna2Panel1.ResumeLayout(False)
-        CType(Me.datagridModelos, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.datagridModelos, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -318,9 +310,6 @@ Partial Class frmConsultaHome
     Friend WithEvents btnPesquisaModelo As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents btnPesquisaCod As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents datagridModelos As ns1.BunifuCustomDataGrid
-    Friend WithEvents coluna_marca As DataGridViewTextBoxColumn
-    Friend WithEvents coluna_modelo As DataGridViewTextBoxColumn
-    Friend WithEvents coluna_codigo As DataGridViewTextBoxColumn
     Friend WithEvents Guna2VScrollBar1 As Guna.UI2.WinForms.Guna2VScrollBar
     Friend WithEvents btnAdd As Guna.UI2.WinForms.Guna2GradientCircleButton
 End Class

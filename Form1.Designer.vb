@@ -215,7 +215,7 @@ Partial Class frmLogin
         Me.Guna2CirclePictureBox1.FillColor = System.Drawing.Color.Transparent
         Me.Guna2CirclePictureBox1.Image = Global.SmartOS.My.Resources.Resources._7610204_flying_phoenix_firebird_abstrato_logo_design_vector_template_vetor
         Me.Guna2CirclePictureBox1.ImageRotate = 0!
-        Me.Guna2CirclePictureBox1.Location = New System.Drawing.Point(1, -62)
+        Me.Guna2CirclePictureBox1.Location = New System.Drawing.Point(0, 1)
         Me.Guna2CirclePictureBox1.Name = "Guna2CirclePictureBox1"
         Me.Guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Me.Guna2CirclePictureBox1.Size = New System.Drawing.Size(454, 480)

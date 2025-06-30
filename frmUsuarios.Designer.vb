@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class frmUsuarios
     Inherits System.Windows.Forms.Form
 
     'Descartar substituições de formulário para limpar a lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,33 +20,29 @@ Partial Class frmUsuarios
     'OBSERVAÇÃO: o procedimento a seguir é exigido pelo Windows Form Designer
     'Pode ser modificado usando o Windows Form Designer.  
     'Não o modifique usando o editor de códigos.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(Me.components)
         Me.Guna2ShadowForm2 = New Guna.UI2.WinForms.Guna2ShadowForm(Me.components)
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.btnPesquisaEmail = New Guna.UI2.WinForms.Guna2Button()
         Me.btnPesquisaUsuario = New Guna.UI2.WinForms.Guna2Button()
         Me.btnPesquisaCargo = New Guna.UI2.WinForms.Guna2Button()
         Me.btnPesquisa = New Guna.UI2.WinForms.Guna2GradientCircleButton()
         Me.txtPesquisa = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2VScrollBar1 = New Guna.UI2.WinForms.Guna2VScrollBar()
-        Me.datagridModelos = New ns1.BunifuCustomDataGrid()
-        Me.coluna_usuario = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.coluna_tipoConta = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.coluna_email = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.coluna_tel = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.coluna_senhaTemporaria = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.coluna_status = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.datagridUsuarios = New ns1.BunifuCustomDataGrid()
         Me.btnAdd = New Guna.UI2.WinForms.Guna2GradientCircleButton()
         Me.Guna2Panel1.SuspendLayout()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.datagridModelos, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.datagridUsuarios, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Guna2Elipse1
@@ -60,7 +56,6 @@ Partial Class frmUsuarios
         'Guna2Panel1
         '
         Me.Guna2Panel1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Panel1.Controls.Add(Me.btnPesquisaEmail)
         Me.Guna2Panel1.Controls.Add(Me.btnPesquisaUsuario)
         Me.Guna2Panel1.Controls.Add(Me.btnPesquisaCargo)
         Me.Guna2Panel1.Controls.Add(Me.btnPesquisa)
@@ -71,29 +66,6 @@ Partial Class frmUsuarios
         Me.Guna2Panel1.Name = "Guna2Panel1"
         Me.Guna2Panel1.Size = New System.Drawing.Size(677, 41)
         Me.Guna2Panel1.TabIndex = 4
-        '
-        'btnPesquisaEmail
-        '
-        Me.btnPesquisaEmail.Animated = True
-        Me.btnPesquisaEmail.AutoRoundedCorners = True
-        Me.btnPesquisaEmail.BorderColor = System.Drawing.Color.OrangeRed
-        Me.btnPesquisaEmail.BorderThickness = 2
-        Me.btnPesquisaEmail.CustomizableEdges.BottomLeft = False
-        Me.btnPesquisaEmail.CustomizableEdges.TopLeft = False
-        Me.btnPesquisaEmail.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.btnPesquisaEmail.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.btnPesquisaEmail.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.btnPesquisaEmail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.btnPesquisaEmail.FillColor = System.Drawing.Color.Transparent
-        Me.btnPesquisaEmail.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnPesquisaEmail.ForeColor = System.Drawing.Color.White
-        Me.btnPesquisaEmail.HoverState.FillColor = System.Drawing.Color.OrangeRed
-        Me.btnPesquisaEmail.Location = New System.Drawing.Point(547, 6)
-        Me.btnPesquisaEmail.Name = "btnPesquisaEmail"
-        Me.btnPesquisaEmail.Size = New System.Drawing.Size(72, 30)
-        Me.btnPesquisaEmail.TabIndex = 8
-        Me.btnPesquisaEmail.Text = "Email"
-        Me.btnPesquisaEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'btnPesquisaUsuario
         '
@@ -111,7 +83,7 @@ Partial Class frmUsuarios
         Me.btnPesquisaUsuario.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnPesquisaUsuario.ForeColor = System.Drawing.Color.White
         Me.btnPesquisaUsuario.HoverState.FillColor = System.Drawing.Color.OrangeRed
-        Me.btnPesquisaUsuario.Location = New System.Drawing.Point(396, 6)
+        Me.btnPesquisaUsuario.Location = New System.Drawing.Point(476, 8)
         Me.btnPesquisaUsuario.Name = "btnPesquisaUsuario"
         Me.btnPesquisaUsuario.Size = New System.Drawing.Size(80, 30)
         Me.btnPesquisaUsuario.TabIndex = 7
@@ -125,9 +97,7 @@ Partial Class frmUsuarios
         Me.btnPesquisaCargo.BorderColor = System.Drawing.Color.OrangeRed
         Me.btnPesquisaCargo.BorderThickness = 2
         Me.btnPesquisaCargo.CustomizableEdges.BottomLeft = False
-        Me.btnPesquisaCargo.CustomizableEdges.BottomRight = False
         Me.btnPesquisaCargo.CustomizableEdges.TopLeft = False
-        Me.btnPesquisaCargo.CustomizableEdges.TopRight = False
         Me.btnPesquisaCargo.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.btnPesquisaCargo.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
         Me.btnPesquisaCargo.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
@@ -136,7 +106,7 @@ Partial Class frmUsuarios
         Me.btnPesquisaCargo.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnPesquisaCargo.ForeColor = System.Drawing.Color.White
         Me.btnPesquisaCargo.HoverState.FillColor = System.Drawing.Color.OrangeRed
-        Me.btnPesquisaCargo.Location = New System.Drawing.Point(477, 6)
+        Me.btnPesquisaCargo.Location = New System.Drawing.Point(557, 8)
         Me.btnPesquisaCargo.Name = "btnPesquisaCargo"
         Me.btnPesquisaCargo.Size = New System.Drawing.Size(69, 30)
         Me.btnPesquisaCargo.TabIndex = 6
@@ -158,7 +128,7 @@ Partial Class frmUsuarios
         Me.btnPesquisa.Image = Global.SmartOS.My.Resources.Resources.lupa__3_
         Me.btnPesquisa.ImageOffset = New System.Drawing.Point(1, 0)
         Me.btnPesquisa.ImageSize = New System.Drawing.Size(25, 25)
-        Me.btnPesquisa.Location = New System.Drawing.Point(303, 4)
+        Me.btnPesquisa.Location = New System.Drawing.Point(303, 5)
         Me.btnPesquisa.Name = "btnPesquisa"
         Me.btnPesquisa.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Me.btnPesquisa.Size = New System.Drawing.Size(35, 35)
@@ -179,7 +149,7 @@ Partial Class frmUsuarios
         Me.txtPesquisa.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtPesquisa.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.txtPesquisa.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtPesquisa.Location = New System.Drawing.Point(58, 2)
+        Me.txtPesquisa.Location = New System.Drawing.Point(58, 4)
         Me.txtPesquisa.Name = "txtPesquisa"
         Me.txtPesquisa.PlaceholderForeColor = System.Drawing.Color.Gray
         Me.txtPesquisa.PlaceholderText = "Digite o usuário"
@@ -201,93 +171,86 @@ Partial Class frmUsuarios
         'Guna2VScrollBar1
         '
         Me.Guna2VScrollBar1.AutoRoundedCorners = True
-        Me.Guna2VScrollBar1.BindingContainer = Me.datagridModelos
+        Me.Guna2VScrollBar1.BindingContainer = Me.datagridUsuarios
         Me.Guna2VScrollBar1.BorderColor = System.Drawing.Color.Transparent
-        Me.Guna2VScrollBar1.BorderRadius = 4
+        Me.Guna2VScrollBar1.BorderRadius = 8
         Me.Guna2VScrollBar1.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.Guna2VScrollBar1.InUpdate = False
         Me.Guna2VScrollBar1.LargeChange = 10
-        Me.Guna2VScrollBar1.Location = New System.Drawing.Point(609, 91)
+        Me.Guna2VScrollBar1.Location = New System.Drawing.Point(608, 47)
         Me.Guna2VScrollBar1.Minimum = 1
         Me.Guna2VScrollBar1.Name = "Guna2VScrollBar1"
-        Me.Guna2VScrollBar1.ScrollbarSize = 10
-        Me.Guna2VScrollBar1.Size = New System.Drawing.Size(10, 378)
+        Me.Guna2VScrollBar1.ScrollbarSize = 18
+        Me.Guna2VScrollBar1.Size = New System.Drawing.Size(18, 411)
         Me.Guna2VScrollBar1.TabIndex = 6
         Me.Guna2VScrollBar1.ThumbColor = System.Drawing.Color.OrangeRed
         Me.Guna2VScrollBar1.Value = 1
         '
-        'datagridModelos
+        'datagridUsuarios
         '
-        Me.datagridModelos.AllowUserToAddRows = False
-        Me.datagridModelos.AllowUserToDeleteRows = False
-        Me.datagridModelos.AllowUserToOrderColumns = True
-        Me.datagridModelos.AllowUserToResizeColumns = False
-        Me.datagridModelos.AllowUserToResizeRows = False
-        DataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.datagridModelos.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle5
-        Me.datagridModelos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
-        Me.datagridModelos.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.datagridModelos.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.datagridModelos.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = System.Drawing.Color.OrangeRed
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.datagridModelos.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle6
-        Me.datagridModelos.ColumnHeadersHeight = 30
-        Me.datagridModelos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
-        Me.datagridModelos.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.coluna_usuario, Me.coluna_tipoConta, Me.coluna_email, Me.coluna_tel, Me.coluna_senhaTemporaria, Me.coluna_status})
-        Me.datagridModelos.DoubleBuffered = True
-        Me.datagridModelos.EnableHeadersVisualStyles = False
-        Me.datagridModelos.GridColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.datagridModelos.HeaderBgColor = System.Drawing.Color.OrangeRed
-        Me.datagridModelos.HeaderForeColor = System.Drawing.Color.White
-        Me.datagridModelos.Location = New System.Drawing.Point(58, 58)
-        Me.datagridModelos.Name = "datagridModelos"
-        Me.datagridModelos.ReadOnly = True
-        Me.datagridModelos.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        Me.datagridModelos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.datagridModelos.Size = New System.Drawing.Size(561, 411)
-        Me.datagridModelos.TabIndex = 5
-        '
-        'coluna_usuario
-        '
-        Me.coluna_usuario.HeaderText = "Usuário"
-        Me.coluna_usuario.Name = "coluna_usuario"
-        Me.coluna_usuario.ReadOnly = True
-        '
-        'coluna_tipoConta
-        '
-        Me.coluna_tipoConta.HeaderText = "Cargo"
-        Me.coluna_tipoConta.Name = "coluna_tipoConta"
-        Me.coluna_tipoConta.ReadOnly = True
-        '
-        'coluna_email
-        '
-        Me.coluna_email.HeaderText = "Email"
-        Me.coluna_email.Name = "coluna_email"
-        Me.coluna_email.ReadOnly = True
-        '
-        'coluna_tel
-        '
-        Me.coluna_tel.HeaderText = "Telefone"
-        Me.coluna_tel.Name = "coluna_tel"
-        Me.coluna_tel.ReadOnly = True
-        '
-        'coluna_senhaTemporaria
-        '
-        Me.coluna_senhaTemporaria.HeaderText = "Senha temp"
-        Me.coluna_senhaTemporaria.Name = "coluna_senhaTemporaria"
-        Me.coluna_senhaTemporaria.ReadOnly = True
-        '
-        'coluna_status
-        '
-        Me.coluna_status.HeaderText = "Status"
-        Me.coluna_status.Name = "coluna_status"
-        Me.coluna_status.ReadOnly = True
+        Me.datagridUsuarios.AllowUserToAddRows = False
+        Me.datagridUsuarios.AllowUserToDeleteRows = False
+        Me.datagridUsuarios.AllowUserToOrderColumns = True
+        Me.datagridUsuarios.AllowUserToResizeColumns = False
+        Me.datagridUsuarios.AllowUserToResizeRows = False
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White
+        Me.datagridUsuarios.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        Me.datagridUsuarios.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
+        Me.datagridUsuarios.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.datagridUsuarios.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.datagridUsuarios.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.OrangeRed
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.OrangeRed
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.datagridUsuarios.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        Me.datagridUsuarios.ColumnHeadersHeight = 30
+        Me.datagridUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.datagridUsuarios.DefaultCellStyle = DataGridViewCellStyle3
+        Me.datagridUsuarios.DoubleBuffered = True
+        Me.datagridUsuarios.EnableHeadersVisualStyles = False
+        Me.datagridUsuarios.GridColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.datagridUsuarios.HeaderBgColor = System.Drawing.Color.OrangeRed
+        Me.datagridUsuarios.HeaderForeColor = System.Drawing.Color.White
+        Me.datagridUsuarios.Location = New System.Drawing.Point(65, 47)
+        Me.datagridUsuarios.MultiSelect = False
+        Me.datagridUsuarios.Name = "datagridUsuarios"
+        Me.datagridUsuarios.ReadOnly = True
+        Me.datagridUsuarios.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle4.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Transparent
+        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.datagridUsuarios.RowHeadersDefaultCellStyle = DataGridViewCellStyle4
+        Me.datagridUsuarios.RowHeadersVisible = False
+        Me.datagridUsuarios.RowHeadersWidth = 10
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White
+        Me.datagridUsuarios.RowsDefaultCellStyle = DataGridViewCellStyle5
+        Me.datagridUsuarios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.datagridUsuarios.Size = New System.Drawing.Size(561, 411)
+        Me.datagridUsuarios.TabIndex = 5
         '
         'btnAdd
         '
@@ -318,13 +281,13 @@ Partial Class frmUsuarios
         Me.Controls.Add(Me.Guna2VScrollBar1)
         Me.Controls.Add(Me.Guna2Panel1)
         Me.Controls.Add(Me.btnAdd)
-        Me.Controls.Add(Me.datagridModelos)
+        Me.Controls.Add(Me.datagridUsuarios)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frmUsuarios"
         Me.Text = "frmUsuarios"
         Me.Guna2Panel1.ResumeLayout(False)
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.datagridModelos, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.datagridUsuarios, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -333,19 +296,12 @@ Partial Class frmUsuarios
     Friend WithEvents Guna2ShadowForm1 As Guna.UI2.WinForms.Guna2ShadowForm
     Friend WithEvents Guna2ShadowForm2 As Guna.UI2.WinForms.Guna2ShadowForm
     Friend WithEvents Guna2VScrollBar1 As Guna.UI2.WinForms.Guna2VScrollBar
-    Friend WithEvents datagridModelos As ns1.BunifuCustomDataGrid
-    Friend WithEvents coluna_usuario As DataGridViewTextBoxColumn
-    Friend WithEvents coluna_tipoConta As DataGridViewTextBoxColumn
-    Friend WithEvents coluna_email As DataGridViewTextBoxColumn
-    Friend WithEvents coluna_tel As DataGridViewTextBoxColumn
-    Friend WithEvents coluna_senhaTemporaria As DataGridViewCheckBoxColumn
-    Friend WithEvents coluna_status As DataGridViewCheckBoxColumn
+    Friend WithEvents datagridUsuarios As ns1.BunifuCustomDataGrid
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents btnPesquisa As Guna.UI2.WinForms.Guna2GradientCircleButton
     Friend WithEvents txtPesquisa As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Guna2PictureBox1 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents btnAdd As Guna.UI2.WinForms.Guna2GradientCircleButton
-    Friend WithEvents btnPesquisaEmail As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents btnPesquisaUsuario As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents btnPesquisaCargo As Guna.UI2.WinForms.Guna2Button
 End Class

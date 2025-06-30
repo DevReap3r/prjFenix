@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class frmOs
     Inherits System.Windows.Forms.Form
 
     'Descartar substituições de formulário para limpar a lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,15 +20,17 @@ Partial Class frmOs
     'OBSERVAÇÃO: o procedimento a seguir é exigido pelo Windows Form Designer
     'Pode ser modificado usando o Windows Form Designer.  
     'Não o modifique usando o editor de códigos.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(Me.components)
         Me.Guna2VScrollBar1 = New Guna.UI2.WinForms.Guna2VScrollBar()
-        Me.datagridModelos = New ns1.BunifuCustomDataGrid()
         Me.btnAdd = New Guna.UI2.WinForms.Guna2GradientCircleButton()
         Me.btnPesquisaOs = New Guna.UI2.WinForms.Guna2Button()
         Me.btnPesquisaNome = New Guna.UI2.WinForms.Guna2Button()
@@ -36,12 +38,10 @@ Partial Class frmOs
         Me.txtPesquisa = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.coluna_numOs = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.coluna_nome = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.coluna_status = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        CType(Me.datagridModelos, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.datagridOs = New ns1.BunifuCustomDataGrid()
         Me.Guna2Panel1.SuspendLayout()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.datagridOs, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Guna2Elipse1
@@ -55,7 +55,6 @@ Partial Class frmOs
         'Guna2VScrollBar1
         '
         Me.Guna2VScrollBar1.AutoRoundedCorners = True
-        Me.Guna2VScrollBar1.BindingContainer = Me.datagridModelos
         Me.Guna2VScrollBar1.BorderColor = System.Drawing.Color.Transparent
         Me.Guna2VScrollBar1.BorderRadius = 6
         Me.Guna2VScrollBar1.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
@@ -69,43 +68,6 @@ Partial Class frmOs
         Me.Guna2VScrollBar1.TabIndex = 14
         Me.Guna2VScrollBar1.ThumbColor = System.Drawing.Color.OrangeRed
         Me.Guna2VScrollBar1.Value = 1
-        '
-        'datagridModelos
-        '
-        Me.datagridModelos.AllowUserToAddRows = False
-        Me.datagridModelos.AllowUserToDeleteRows = False
-        Me.datagridModelos.AllowUserToOrderColumns = True
-        Me.datagridModelos.AllowUserToResizeColumns = False
-        Me.datagridModelos.AllowUserToResizeRows = False
-        DataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.datagridModelos.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle5
-        Me.datagridModelos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
-        Me.datagridModelos.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.datagridModelos.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.datagridModelos.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = System.Drawing.Color.OrangeRed
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.datagridModelos.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle6
-        Me.datagridModelos.ColumnHeadersHeight = 30
-        Me.datagridModelos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
-        Me.datagridModelos.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.coluna_numOs, Me.coluna_nome, Me.coluna_status})
-        Me.datagridModelos.DoubleBuffered = True
-        Me.datagridModelos.EnableHeadersVisualStyles = False
-        Me.datagridModelos.GridColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.datagridModelos.HeaderBgColor = System.Drawing.Color.OrangeRed
-        Me.datagridModelos.HeaderForeColor = System.Drawing.Color.White
-        Me.datagridModelos.Location = New System.Drawing.Point(58, 47)
-        Me.datagridModelos.Name = "datagridModelos"
-        Me.datagridModelos.ReadOnly = True
-        Me.datagridModelos.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        Me.datagridModelos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.datagridModelos.Size = New System.Drawing.Size(565, 415)
-        Me.datagridModelos.TabIndex = 13
         '
         'btnAdd
         '
@@ -242,23 +204,71 @@ Partial Class frmOs
         Me.Guna2PictureBox1.TabStop = False
         Me.Guna2PictureBox1.UseTransparentBackground = True
         '
-        'coluna_numOs
+        'datagridOs
         '
-        Me.coluna_numOs.HeaderText = "Número de OS"
-        Me.coluna_numOs.Name = "coluna_numOs"
-        Me.coluna_numOs.ReadOnly = True
-        '
-        'coluna_nome
-        '
-        Me.coluna_nome.HeaderText = "Nome do cliente"
-        Me.coluna_nome.Name = "coluna_nome"
-        Me.coluna_nome.ReadOnly = True
-        '
-        'coluna_status
-        '
-        Me.coluna_status.HeaderText = "Status"
-        Me.coluna_status.Name = "coluna_status"
-        Me.coluna_status.ReadOnly = True
+        Me.datagridOs.AllowUserToAddRows = False
+        Me.datagridOs.AllowUserToDeleteRows = False
+        Me.datagridOs.AllowUserToOrderColumns = True
+        Me.datagridOs.AllowUserToResizeColumns = False
+        Me.datagridOs.AllowUserToResizeRows = False
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White
+        Me.datagridOs.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        Me.datagridOs.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
+        Me.datagridOs.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.datagridOs.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.datagridOs.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.OrangeRed
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.OrangeRed
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.datagridOs.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        Me.datagridOs.ColumnHeadersHeight = 30
+        Me.datagridOs.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.datagridOs.DefaultCellStyle = DataGridViewCellStyle3
+        Me.datagridOs.DoubleBuffered = True
+        Me.datagridOs.EnableHeadersVisualStyles = False
+        Me.datagridOs.GridColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.datagridOs.HeaderBgColor = System.Drawing.Color.OrangeRed
+        Me.datagridOs.HeaderForeColor = System.Drawing.Color.White
+        Me.datagridOs.Location = New System.Drawing.Point(62, 51)
+        Me.datagridOs.MultiSelect = False
+        Me.datagridOs.Name = "datagridOs"
+        Me.datagridOs.ReadOnly = True
+        Me.datagridOs.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle4.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Transparent
+        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.datagridOs.RowHeadersDefaultCellStyle = DataGridViewCellStyle4
+        Me.datagridOs.RowHeadersVisible = False
+        Me.datagridOs.RowHeadersWidth = 10
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White
+        Me.datagridOs.RowsDefaultCellStyle = DataGridViewCellStyle5
+        Me.datagridOs.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.datagridOs.Size = New System.Drawing.Size(561, 411)
+        Me.datagridOs.TabIndex = 16
         '
         'frmOs
         '
@@ -266,16 +276,16 @@ Partial Class frmOs
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(677, 481)
+        Me.Controls.Add(Me.datagridOs)
         Me.Controls.Add(Me.Guna2VScrollBar1)
         Me.Controls.Add(Me.btnAdd)
-        Me.Controls.Add(Me.datagridModelos)
         Me.Controls.Add(Me.Guna2Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frmOs"
         Me.Text = "frmOs"
-        CType(Me.datagridModelos, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2Panel1.ResumeLayout(False)
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.datagridOs, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -283,7 +293,6 @@ Partial Class frmOs
     Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
     Friend WithEvents Guna2ShadowForm1 As Guna.UI2.WinForms.Guna2ShadowForm
     Friend WithEvents Guna2VScrollBar1 As Guna.UI2.WinForms.Guna2VScrollBar
-    Friend WithEvents datagridModelos As ns1.BunifuCustomDataGrid
     Friend WithEvents btnAdd As Guna.UI2.WinForms.Guna2GradientCircleButton
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents btnPesquisaOs As Guna.UI2.WinForms.Guna2Button
@@ -291,7 +300,5 @@ Partial Class frmOs
     Friend WithEvents btnPesquisa As Guna.UI2.WinForms.Guna2GradientCircleButton
     Friend WithEvents txtPesquisa As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Guna2PictureBox1 As Guna.UI2.WinForms.Guna2PictureBox
-    Friend WithEvents coluna_numOs As DataGridViewTextBoxColumn
-    Friend WithEvents coluna_nome As DataGridViewTextBoxColumn
-    Friend WithEvents coluna_status As DataGridViewComboBoxColumn
+    Friend WithEvents datagridOs As ns1.BunifuCustomDataGrid
 End Class

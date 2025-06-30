@@ -25,4 +25,14 @@
     Private Sub frmAdicionarModelo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
+
+    Private Sub btnSalvar_Click(sender As Object, e As EventArgs) Handles btnSalvar.Click
+        If txtModelo.Text = "" Or cmbMarca.SelectedIndex = -1 Then
+            MsgBox("Preencha os campos de modelo e marca!", MsgBoxStyle.Exclamation, "Atenção")
+            Return
+        Else
+            adicionarModelo(txtModelo.Text, cmbMarca.ToString(), txtCod.Text)
+            navegacao(frmConsultaHome)
+        End If
+    End Sub
 End Class

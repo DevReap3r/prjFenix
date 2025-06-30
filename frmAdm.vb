@@ -49,6 +49,8 @@
         btnUsuarios.FillColor = Color.Transparent
         btnConsulta.FillColor = Color.Transparent
         btnClientes.FillColor = Color.Transparent
+        ActiveButton(btnOs, sidebarAdm)
+        FormShow(frmOs, panel_forms)
     End Sub
 
     Private Sub btnClientes_Click(sender As Object, e As EventArgs) Handles btnClientes.Click
@@ -56,9 +58,15 @@
         btnUsuarios.FillColor = Color.Transparent
         btnOs.FillColor = Color.Transparent
         btnConsulta.FillColor = Color.Transparent
+        ActiveButton(btnClientes, sidebarAdm)
+        FormShow(frmClientes, panel_forms)
     End Sub
 
     Private Sub panel_forms_Paint(sender As Object, e As PaintEventArgs) Handles panel_forms.Paint
+
+    End Sub
+
+    Private Sub sidebarAdm_Paint(sender As Object, e As PaintEventArgs) Handles sidebarAdm.Paint
 
     End Sub
 End Class

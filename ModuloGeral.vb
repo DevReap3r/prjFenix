@@ -1,9 +1,13 @@
 ﻿Imports System.Linq.Expressions
 Imports Guna.UI2.WinForms
+Imports MySql.Data.MySqlClient
 
 Module ModuloGeral
     Dim resp As String
     Private frmAtivo As Form
+    Public db As New MySqlConnection("server=localhost;user id=root;password=admin;database=flamework")
+    Public reader As MySqlDataReader
+
     Public Sub deslogar()
         resp = MsgBox("Você deseja realmente deslogar?", MsgBoxStyle.YesNo + MsgBoxStyle.Question, "Sair")
         If resp = vbYes Then
@@ -12,6 +16,7 @@ Module ModuloGeral
             frmLogin.txtUsuario.Focus()
             frmLogin.Show()
             frmAdm.Close()
+            admin = False
             tipo_conta = 0
         Else
             Return
@@ -20,6 +25,7 @@ Module ModuloGeral
     Public Sub fechar()
         resp = MsgBox("Você deseja realmente fechar o sistema?", MsgBoxStyle.YesNo + MsgBoxStyle.Question, "Fechar")
         If resp = vbYes Then
+            db.Close()
             Application.Exit()
         Else
             Return

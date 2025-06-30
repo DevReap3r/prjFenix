@@ -58,6 +58,7 @@ Partial Class frmAdicionarModelo
         Me.cmbMarca.Font = New System.Drawing.Font("Segoe UI", 10.0!)
         Me.cmbMarca.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.cmbMarca.ItemHeight = 30
+        Me.cmbMarca.Items.AddRange(New Object() {"SAMSUNG", "APPLE", "MOTOROLA", "XIAOMI"})
         Me.cmbMarca.Location = New System.Drawing.Point(29, 72)
         Me.cmbMarca.Name = "cmbMarca"
         Me.cmbMarca.Size = New System.Drawing.Size(262, 36)

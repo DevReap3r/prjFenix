@@ -25,17 +25,15 @@ Partial Class frmAdicionarUsuario
         Me.components = New System.ComponentModel.Container()
         Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(Me.components)
-        Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2CustomGradientPanel1 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
-        Me.cmbMarca = New Guna.UI2.WinForms.Guna2ComboBox()
-        Me.Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.cmbCargo = New Guna.UI2.WinForms.Guna2ComboBox()
         Me.btnCancelar = New Guna.UI2.WinForms.Guna2Button()
         Me.btnSalvar = New Guna.UI2.WinForms.Guna2Button()
-        Me.txtEmail = New Guna.UI2.WinForms.Guna2TextBox()
         Me.txtUsuario = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.btnFechar = New Guna.UI2.WinForms.Guna2PictureBox()
-        CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2CustomGradientPanel1.SuspendLayout()
+        CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnFechar, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -47,26 +45,11 @@ Partial Class frmAdicionarUsuario
         '
         Me.Guna2ShadowForm1.TargetForm = Me
         '
-        'Guna2PictureBox2
-        '
-        Me.Guna2PictureBox2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2PictureBox2.Image = Global.SmartOS.My.Resources.Resources.voltar
-        Me.Guna2PictureBox2.ImageRotate = 0!
-        Me.Guna2PictureBox2.Location = New System.Drawing.Point(6, 8)
-        Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Me.Guna2PictureBox2.Size = New System.Drawing.Size(24, 24)
-        Me.Guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox2.TabIndex = 8
-        Me.Guna2PictureBox2.TabStop = False
-        Me.Guna2PictureBox2.UseTransparentBackground = True
-        '
         'Guna2CustomGradientPanel1
         '
-        Me.Guna2CustomGradientPanel1.Controls.Add(Me.cmbMarca)
-        Me.Guna2CustomGradientPanel1.Controls.Add(Me.Guna2TextBox1)
+        Me.Guna2CustomGradientPanel1.Controls.Add(Me.cmbCargo)
         Me.Guna2CustomGradientPanel1.Controls.Add(Me.btnCancelar)
         Me.Guna2CustomGradientPanel1.Controls.Add(Me.btnSalvar)
-        Me.Guna2CustomGradientPanel1.Controls.Add(Me.txtEmail)
         Me.Guna2CustomGradientPanel1.Controls.Add(Me.txtUsuario)
         Me.Guna2CustomGradientPanel1.FillColor = System.Drawing.Color.Gold
         Me.Guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
@@ -77,45 +60,22 @@ Partial Class frmAdicionarUsuario
         Me.Guna2CustomGradientPanel1.Size = New System.Drawing.Size(321, 341)
         Me.Guna2CustomGradientPanel1.TabIndex = 7
         '
-        'cmbMarca
+        'cmbCargo
         '
-        Me.cmbMarca.AutoRoundedCorners = True
-        Me.cmbMarca.BackColor = System.Drawing.Color.Transparent
-        Me.cmbMarca.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.cmbMarca.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.cmbMarca.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.cmbMarca.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.cmbMarca.Font = New System.Drawing.Font("Segoe UI", 10.0!)
-        Me.cmbMarca.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.cmbMarca.ItemHeight = 30
-        Me.cmbMarca.Items.AddRange(New Object() {"Administrador", "Técnico", "Atendente"})
-        Me.cmbMarca.Location = New System.Drawing.Point(29, 159)
-        Me.cmbMarca.Name = "cmbMarca"
-        Me.cmbMarca.Size = New System.Drawing.Size(262, 36)
-        Me.cmbMarca.TabIndex = 7
-        '
-        'Guna2TextBox1
-        '
-        Me.Guna2TextBox1.Animated = True
-        Me.Guna2TextBox1.AutoRoundedCorners = True
-        Me.Guna2TextBox1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2TextBox1.DefaultText = ""
-        Me.Guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2TextBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox1.Location = New System.Drawing.Point(31, 117)
-        Me.Guna2TextBox1.Name = "Guna2TextBox1"
-        Me.Guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.Gray
-        Me.Guna2TextBox1.PlaceholderText = "Digite o telefone"
-        Me.Guna2TextBox1.SelectedText = ""
-        Me.Guna2TextBox1.Size = New System.Drawing.Size(262, 36)
-        Me.Guna2TextBox1.TabIndex = 6
+        Me.cmbCargo.AutoRoundedCorners = True
+        Me.cmbCargo.BackColor = System.Drawing.Color.Transparent
+        Me.cmbCargo.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.cmbCargo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbCargo.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.cmbCargo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.cmbCargo.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.cmbCargo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.cmbCargo.ItemHeight = 30
+        Me.cmbCargo.Items.AddRange(New Object() {"ADMINISTRADOR", "TÉCNICO", "ATENDENTE"})
+        Me.cmbCargo.Location = New System.Drawing.Point(31, 136)
+        Me.cmbCargo.Name = "cmbCargo"
+        Me.cmbCargo.Size = New System.Drawing.Size(262, 36)
+        Me.cmbCargo.TabIndex = 7
         '
         'btnCancelar
         '
@@ -155,29 +115,6 @@ Partial Class frmAdicionarUsuario
         Me.btnSalvar.Text = "Salvar"
         Me.btnSalvar.UseTransparentBackground = True
         '
-        'txtEmail
-        '
-        Me.txtEmail.Animated = True
-        Me.txtEmail.AutoRoundedCorners = True
-        Me.txtEmail.BackColor = System.Drawing.Color.Transparent
-        Me.txtEmail.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.txtEmail.DefaultText = ""
-        Me.txtEmail.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.txtEmail.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.txtEmail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.txtEmail.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.txtEmail.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtEmail.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.txtEmail.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.txtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtEmail.Location = New System.Drawing.Point(31, 75)
-        Me.txtEmail.Name = "txtEmail"
-        Me.txtEmail.PlaceholderForeColor = System.Drawing.Color.Gray
-        Me.txtEmail.PlaceholderText = "Digite o email"
-        Me.txtEmail.SelectedText = ""
-        Me.txtEmail.Size = New System.Drawing.Size(262, 36)
-        Me.txtEmail.TabIndex = 3
-        '
         'txtUsuario
         '
         Me.txtUsuario.Animated = True
@@ -193,13 +130,26 @@ Partial Class frmAdicionarUsuario
         Me.txtUsuario.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.txtUsuario.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.txtUsuario.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtUsuario.Location = New System.Drawing.Point(29, 33)
+        Me.txtUsuario.Location = New System.Drawing.Point(29, 79)
         Me.txtUsuario.Name = "txtUsuario"
         Me.txtUsuario.PlaceholderForeColor = System.Drawing.Color.Gray
         Me.txtUsuario.PlaceholderText = "Digite o usuário"
         Me.txtUsuario.SelectedText = ""
         Me.txtUsuario.Size = New System.Drawing.Size(262, 36)
         Me.txtUsuario.TabIndex = 2
+        '
+        'Guna2PictureBox2
+        '
+        Me.Guna2PictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2PictureBox2.Image = Global.SmartOS.My.Resources.Resources.voltar
+        Me.Guna2PictureBox2.ImageRotate = 0!
+        Me.Guna2PictureBox2.Location = New System.Drawing.Point(6, 8)
+        Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
+        Me.Guna2PictureBox2.Size = New System.Drawing.Size(24, 24)
+        Me.Guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox2.TabIndex = 8
+        Me.Guna2PictureBox2.TabStop = False
+        Me.Guna2PictureBox2.UseTransparentBackground = True
         '
         'btnFechar
         '
@@ -228,8 +178,8 @@ Partial Class frmAdicionarUsuario
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frmAdicionarUsuario"
         Me.Text = "frmAdicionarUsuario"
-        CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2CustomGradientPanel1.ResumeLayout(False)
+        CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnFechar, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -241,9 +191,7 @@ Partial Class frmAdicionarUsuario
     Friend WithEvents Guna2CustomGradientPanel1 As Guna.UI2.WinForms.Guna2CustomGradientPanel
     Friend WithEvents btnCancelar As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents btnSalvar As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents txtEmail As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents txtUsuario As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents btnFechar As Guna.UI2.WinForms.Guna2PictureBox
-    Friend WithEvents Guna2TextBox1 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents cmbMarca As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents cmbCargo As Guna.UI2.WinForms.Guna2ComboBox
 End Class
